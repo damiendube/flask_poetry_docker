@@ -1,0 +1,5 @@
+/dist
+*.egg-info
+/.venv
+/.vscode/settings.json
+__pycache__
