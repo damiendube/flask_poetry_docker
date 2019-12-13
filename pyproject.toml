@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "poetry-demo"
+name = "demo"
 version = "0.1.0"
 description = ""
 authors = ["Damien Dubé <damien.dube@gmail.com>"]
@@ -21,10 +21,10 @@ docker = "^4.1.0"
 autopep8 = "^1.4.4"
 
 [tool.poetry.scripts]
-docker_build = "poetry_scripts:build"
-docker_clean = "poetry_scripts:clean"
-docker_run = "poetry_scripts:run"
-docker_stop = "poetry_scripts:stop"
+docker_build = "scripts:build"
+docker_clean = "scripts:clean"
+docker_run = "scripts:run"
+docker_stop = "scripts:stop"
 
 [build-system]
 requires = ["poetry>=0.12"]

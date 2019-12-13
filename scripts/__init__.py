@@ -1,6 +1,6 @@
 import docker
 
-DOCKER_IMAGE_NAME = "poetry_demo:latest"
+DOCKER_IMAGE_NAME = "demo:latest"
 
 
 def run():

@@ -11,7 +11,7 @@ ENV YOUR_ENV=${YOUR_ENV} \
   PIP_DISABLE_PIP_VERSION_CHECK=on \
   PIP_DEFAULT_TIMEOUT=100 \
   POETRY_VERSION=1.0 \
-  FLASK_APP=/code/poetry_demo/__init__.py
+  FLASK_APP=/code/demo/__init__.py
 
 # install psycopg2 dependencies
 RUN apk upgrade --update
