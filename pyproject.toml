@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Damien Dubé <damien.dube@gmail.com>"]
 license = "Apache-2.0"
-readme = "README.rst"
+readme = "README.md"
 classifiers = [
     "Topic :: Software Development :: Build Tools",
     "Topic :: Software Development :: Libraries :: Python Modules"
