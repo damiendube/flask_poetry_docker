@@ -25,7 +25,7 @@ def clean():
 
 def run_image(docker_client: docker.APIClient):
     try:
-        docker_client.containers.run(DOCKER_IMAGE_NAME, ["wsgi"], ports={5000: 5000}, auto_remove=True, detach=True)
+        docker_client.containers.run(DOCKER_IMAGE_NAME, ["application"], ports={5000: 5000}, auto_remove=True, detach=True)
     except docker.errors.APIError as err:
             print("Error running the image", err)
 

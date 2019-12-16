@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.6-alpine
 
 
 ARG YOUR_ENV
@@ -32,4 +32,4 @@ RUN poetry config virtualenvs.create false && poetry install --no-dev --no-ansi
 COPY . /code
 
 EXPOSE 5000
-ENTRYPOINT ["gunicorn", "-b", "0.0.0.0:5000", "wsgi"]
+ENTRYPOINT ["gunicorn", "-b", "0.0.0.0:5000", "application"]
